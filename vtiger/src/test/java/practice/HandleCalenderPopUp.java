@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class HandleCalenderPopUp {
+public class HandleCalenderPopUpInSpiceJet {
 
 	public static void main(String[] args) {
 		String month = "November";
@@ -30,7 +30,9 @@ public class HandleCalenderPopUp {
 		catch(Exception e) {
 
 		driver.findElement(By.xpath("//div[@class=\"css-1dbjc4n r-1loqt21 r-u8s1d r-11xbo3g r-1v2oles r-1otgn73 r-16zfatd r-eafdt9 r-1i6wzkk r-lrvibr r-184en5c\"]")).click();
-	}
+	
+		System.out.println("Change in Global");
+		}
 
 }
 }
